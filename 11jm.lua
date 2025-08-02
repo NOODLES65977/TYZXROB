@@ -28,7 +28,8 @@ function Ripple(obj)
 		Ripple.BackgroundColor3 = Color3.fromRGB(139, 0, 255)
 		Ripple.BackgroundTransparency = 1.000
 		Ripple.ZIndex = 8
-		Ripple.Image = "rbxassetid://17894875649"
+		Ripple.Image = "
+		assetid://17894875649"
 		Ripple.ImageTransparency = 10
 		Ripple.ScaleType = Enum.ScaleType.Fit
 		Ripple.ImageColor3 = Color3.fromRGB(139, 0, 255)
@@ -216,7 +217,7 @@ end
       DropShadow.BackgroundTransparency = 1.000
       DropShadow.Position = UDim2.new(0.5, 0, 0.5, 0)
       DropShadow.Size = UDim2.new(1, 10, 1, 10)
-      DropShadow.Image = "rbxassetid://15613380753" --背景
+      DropShadow.Image = "rbxassetid://107845617797650" --背景
       DropShadow.ImageColor3 = Color3.fromRGB(255,255,255)
       DropShadow.SliceCenter = Rect.new(49, 49, 450, 450)
 
@@ -455,7 +456,7 @@ Open.Draggable = true
 Open.Image = "rbxassetid://18942673533"
 Open.MouseButton1Click:Connect(function()
   Main.Visible = not Main.Visible
-  Open.Image = Main.Visible and "rbxassetid://15613380753" or "rbxassetid://15613380753" --开关的图
+  Open.Image = Main.Visible and "rbxassetid://115498980684074" or "rbxassetid://115498980684074" --开关的图
 end)
 
 UICorner_2.CornerRadius = UDim.new(0, 90)
@@ -789,4 +790,4 @@ UIG.Parent = Open
               Backquote = true;
               CapsLock = true;
               Escape = true;
-              Unknown = true;
+              Unkn
